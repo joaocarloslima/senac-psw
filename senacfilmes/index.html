@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senac Filmes</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <span class="material-icons">
+            theaters
+        </span>
+        <h1>Senac Filmes</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Filmes</a></li>
+                <li><a href="#">Séries</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+
+    <div class="hero">
+        <p>Encontre rapidamente o que assistir</p>
+    </div>
+
+    <main>
+        <form>
+            <label for="poster">Poster</label>
+            <input type="text" id="poster" />
+            <label for="nota">Nota</label>
+            <input type="number" id="nota" />
+            <button class="botao" id="botao-cadastrar">Cadastrar</button>
+        </form>
+        <h2>Filmes em alta</h2>
+        <section id="filmes" class="secao-filmes">
+            <div class="card">
+                <img src="images/posters/elvis.jpg" alt="poster do filmes do Elvis" />
+                <p class="titulo">Elvis</p>
+                <div class="nota">
+                    <span class="material-icons estrela">
+                    star
+                    </span>
+                    <span>7,9</span>
+                </div>
+                <a class="botao" href="#">detalhes</a>
+            </div>
+            <div class="card">
+                <img src="images/posters/elvis.jpg" alt="poster do filmes do Elvis" />
+                <p class="titulo">Elvis</p>
+                <div class="nota">
+                    <span class="material-icons estrela">
+                    star
+                    </span>
+                    <span>7,9</span>
+                </div>
+                <a class="botao" href="#">detalhes</a>
+            </div>
+
+        </section>
+    </main>
+
+</body>
+<script src="./script/Card.js"></script>
+<script src="./script/script.js"></script>
+
+</html>
